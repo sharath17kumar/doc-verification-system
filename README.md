@@ -159,25 +159,20 @@ ssh -i your-key.pem ubuntu@your-public-ip
 sudo apt update
 sudo apt install python3-pip python3-venv git -y
 
-5️⃣ Clone GitHub Repository
-
-git clone https://github.com/your-username/doc-verification-system.git
-cd doc-verification-system
-
-6️⃣ Setup Virtual Environment
+5️⃣ Setup Virtual Environment
 
 python3 -m venv venv
 source venv/bin/activate
 
-7️⃣ Install Dependencies
+6️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-8️⃣ Run Application
+7️⃣ Run Application
 
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 
-9️⃣ Access Application
+8️⃣ Access Application
 
 http://<your-ec2-public-ip>:8000/docs.
 
@@ -195,14 +190,5 @@ http://<your-ec2-public-ip>:8000/docs.
 
 ## 👨‍💻 Author
 
-Sharath
-Aspiring Cloud & Backend Engineer
-
+Sharath Kumar R
 ---
-
-## 📌 Conclusion
-
-This project demonstrates backend development, database integration, authentication, and basic AI-based document verification using computer vision.
-
----
-
