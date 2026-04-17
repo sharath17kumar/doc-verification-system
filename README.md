@@ -191,4 +191,6 @@ http://<your-ec2-public-ip>:8000/docs.
 ## 👨‍💻 Author
 
 Sharath Kumar R
+sharathkumar2003r@gmail.com
+https://www.linkedin.com/in/sharath-kumar-r06/
 ---
