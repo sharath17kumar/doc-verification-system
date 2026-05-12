@@ -85,6 +85,8 @@ Once the server is running, open:
 ```bash
 http://127.0.0.1:8000/docs
 ```
+<img width="1901" height="734" alt="fastapi image " src="https://github.com/user-attachments/assets/fc54a5f0-89b8-4503-822d-7d3d21316600" />
+
 
 This will open Swagger UI where you can test all APIs.
 
